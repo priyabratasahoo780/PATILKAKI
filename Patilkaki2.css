@@ -7,7 +7,7 @@
 
 .blue {
     width: 100vw;
-    height: 1vw;
+    height:auto;
     background-color: rgb(4, 74, 143);
     display: flex;
     font-weight: 500;
@@ -1070,7 +1070,7 @@
     font-style: normal;
     align-items: center;
     margin: auto;
-
+   margin-top:2%;
 }
 
 .chef1 {
@@ -1080,6 +1080,7 @@
     font-size: 2.2vw;
     display: flex;
     justify-content: center;
+    margin-top:2%;
 
 }
 
@@ -1120,6 +1121,44 @@
 
     .add {
         font-size: 1.8vw;
+    }
+      .orange ul li a{
+        font-size:2.2vw;
+    }
+     .tline img{
+        width:6vw;
+    }
+    .blue{
+        font-size:1.4vw;
+    }
+     .orange ul li a{
+        font-size:2.3vw;
+    }
+     .tline img{
+        width:6vw;
+    }
+    .blue{
+        font-size:1.4vw;
+    }
+    .chef{
+    font-size:3.4vw;
+
+    }
+    .about1{
+        font-size:1.6vw;
+    }
+    .feel{
+    margin-top:6%;
+    }
+  .chef1{
+    font-size:3.4vw;
+    }
+     .track_in{
+        font-size:1.6vw;
+        width:72%;
+    }
+    .ladoos{
+        margin-top:6%;
     }
 }
 
@@ -1207,6 +1246,45 @@
     .feel {
         flex-direction: column-reverse;
     }
+      .orange ul li a{
+        font-size:2.2vw;
+    }
+     .tline img{
+        width:6vw;
+    }
+    .blue{
+        font-size:1.4vw;
+    }
+       .orange ul li a{
+        font-size:2.3vw;
+    }
+     .tline img{
+        width:6vw;
+    }
+    .blue{
+        font-size:1.4vw;
+    }
+    .chef{
+    font-size:3.4vw;
+
+    }
+    .about1{
+        font-size:1.6vw;
+    }
+    .feel{
+    margin-top:6%;
+    }
+  .chef1{
+    font-size:3.4vw;
+    }
+     .track_in{
+        font-size:1.6vw;
+        width:72%;
+    }
+    .ladoos{
+        margin-top:6%;
+    }
+
 }
 
 @media screen and (max-width:600px) {
@@ -1257,5 +1335,33 @@
     .no {
         gap: 1.2;
     }
+       .orange ul li a{
+        font-size:2.3vw;
+    }
+     .tline img{
+        width:6vw;
+    }
+    .blue{
+        font-size:1.4vw;
+    }
+    .chef{
+    font-size:3.4vw;
 
+    }
+    .about1{
+        font-size:1.6vw;
+    }
+    .feel{
+    margin-top:6%;
+    }
+  .chef1{
+    font-size:3.4vw;
+    }
+     .track_in{
+        font-size:1.6vw;
+        width:72%;
+    }
+    .ladoos{
+        margin-top:6%;
+    }
 }

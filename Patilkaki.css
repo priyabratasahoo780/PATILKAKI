@@ -7,12 +7,13 @@
 
 .blue {
     width: 100vw;
-    height: 2vh;
+    height: 2vw;
     background-color: rgb(4, 74, 143);
     display: flex;
     font-weight: 500;
     color: white;
     justify-content: center;
+    align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8vw;
 }
@@ -248,7 +249,7 @@
     /* border:1px solid red; */
     display: flex;
     width: 100vw;
-    height: 42vw;
+    height: 46vw;
     justify-content: center;
     justify-content: space-between;
     margin: auto;
@@ -378,6 +379,7 @@
     margin: auto;
     align-items: center;
     justify-content: space-between;
+    margin-top:2%;
 }
 
 .heart {
@@ -960,7 +962,7 @@
 }
 
 .Tasty {
-    /* border:1px solid blue; */
+    /* border:1px solid rgb(0, 255, 115); */
     width: 90vw;
     height: 20vw;
     display: flex;
@@ -970,7 +972,7 @@
 
 .Tasty1 {
     /* border:1px solid red; */
-    width: 21.52vw;
+    width: 21.53vw;
     height: 20vw;
 }
 
@@ -1325,6 +1327,12 @@
     .add {
         font-size: 1.8vw;
     }
+      .orange ul li a{
+        font-size:2.2vw;
+    }
+     .tline img{
+        width:5vw;
+    }
 }
 
 @media screen and (max-width:786px) {
@@ -1371,6 +1379,21 @@
 
     .boxer1 {
         height: 38vw;
+    }
+  .orange ul li a{
+        font-size:2.2vw;
+    }
+    .tline img{
+        width:5vw;
+    }
+    .evening{
+        font-size:0.9vw;
+    }
+    .Tasty{
+        width:97vw;
+    }
+    .blue{
+        font-size:1.2vw;
     }
 }
 
@@ -1421,6 +1444,15 @@
 
     .no {
         gap: 1.2;
+    }
+     .orange ul li a{
+        font-size:2.3vw;
+    }
+     .tline img{
+        width:6vw;
+    }
+    .blue{
+        font-size:1.4vw;
     }
 
 }
