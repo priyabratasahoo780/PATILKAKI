@@ -1364,4 +1364,414 @@
     .ladoos{
         margin-top:6%;
     }
+/* Responsive Media Queries */
+
+@media screen and (max-width: 1024px) {
+    .orange ul {
+        width: 80vw;
+    }
+    
+    .orange ul li a {
+        font-size: 1.5vw;
+    }
+
+    .thirds {
+        width: 90vw;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: auto;
+    }
+
+    .flow {
+        height: auto; /* Allow flow to grow */
+    }
+
+    .flow_in, .flow2 {
+         /* Adjust if needed for tablet */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Header & Nav */
+    .white {
+        height: auto;
+        padding: 2vw 0;
+        align-items: center;
+    }
+    
+    .patil img {
+        width: 25vw;
+        height: auto;
+    }
+
+    .menu_search, .menu_search1 {
+        width: 15vw;
+    }
+
+    .orange {
+        height: auto;
+        padding: 1vw 0;
+    }
+
+    .orange ul {
+        width: 95vw;
+        justify-content: space-between;
+    }
+
+    .orange ul li a {
+        font-size: 2.5vw;
+    }
+
+    /* About Us Sections */
+    .about {
+        font-size: 5vw;
+        height: 15vw;
+        justify-content: center;
+    }
+
+    .flow {
+        flex-direction: column;
+        height: auto;
+        align-items: center; /* Center column items */
+    }
+
+    .flow1, .flow2 {
+        width: 100vw;
+        height: auto;
+        justify-content: center; /* Center content horizontally */
+    }
+
+    .flow_in {
+        width: 100vw;
+        height: 80vw; /* Increased height for better visibility */
+        background-position: center; /* Center the background image */
+        margin: auto;
+    }
+
+    .flow2 {
+        padding: 5vw;
+    }
+
+    .chef {
+        font-size: 5vw;
+        margin-bottom: 3vw;
+    }
+
+    .about1 {
+        width: 90%;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    /* Feel Section */
+    .feel {
+        flex-direction: column;
+        height: auto;
+        width: 100vw; /* Fix width alignment */
+    }
+
+    .feel_in {
+        width: 100vw;
+        height: auto;
+        padding: 5vw;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .chef1 {
+        font-size: 5vw;
+        margin-bottom: 3vw;
+        text-align: center;
+    }
+
+    .track_in {
+        font-size: 3vw;
+        width: 90%;
+    }
+
+    .kps {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5vw;
+    }
+
+    .kp2 {
+        width: 80vw;
+        height: 60vw;
+        background-position: center;
+        margin: auto;
+    }
+
+
+    /* Products Grid */
+    .thirds {
+        justify-content: space-between;
+    }
+
+    .boxer, .boxer1 {
+        width: 45vw;
+        display: block;
+        height: auto;
+        margin-bottom: 5vw;
+    }
+
+    .photo_one, .photo_one2, .photo_one3, .photo_one4 {
+        width: 44vw;
+        height: 44vw;
+    }
+
+    .pur {
+        font-size: 3.5vw;
+        margin-top: 1vw;
+    }
+
+    .delta del, .delta1, .delta2 {
+        font-size: 3vw;
+    }
+
+    .quick {
+        width: 40vw;
+        height: 20vw;
+        background-size: contain;
+    }
+    
+    .add {
+        font-size: 2.5vw;
+    }
+
+     /* Tasty Section */
+     .ladoos {
+        height: auto;
+        padding-bottom: 5vw;
+     }
+
+     .Tasty {
+         flex-wrap: wrap;
+         height: auto;
+         gap: 5vw;
+     }
+
+     .Tasty1 {
+         width: 45vw;
+         height: auto;
+     } 
+     
+    .t_words {
+         width: 45vw;
+         font-size: 3vw;
+         height: 6vw;
+     }
+
+    .evening {
+         font-size: 2.5vw;
+     }
+}
+
+@media screen and (max-width: 480px) {
+    /* Mobile Header Refinements */
+    .white {
+        padding: 0.5rem 0;
+        width: 100vw;
+    }
+
+    .menu_search, .menu_search1 {
+        width: 20vw;
+        justify-content: space-around;
+        margin: 0 2vw;
+    }
+
+    .tline img {
+        width: 6vw;
+        padding: 1vw;
+    }
+
+    .patil img {
+        width: 30vw;
+         margin-top: 1vw;
+    }
+
+    /* Sticky Horizontal Scroll Nav */
+    .orange {
+        width: 100vw;
+        height: 12vw;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    
+    .orange::-webkit-scrollbar {
+        display: none;
+    }
+
+    .orange ul {
+        width: auto;
+        min-width: 100vw;
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0 4vw;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6vw;
+    }
+    
+    .orange ul li {
+        width: auto;
+        flex: 0 0 auto;
+        border: none;
+        margin: 0;
+    }
+
+    .orange ul li a {
+        font-size: 3.5vw;
+        width: auto;
+        display: block;
+        padding: 1vw 0;
+    }
+
+    /* About Us text adjustments */
+    .about1 {
+        font-size: 4vw;
+        line-height: 1.5;
+    }
+    
+    .track_in {
+        font-size: 4vw;
+        line-height: 1.5;
+    }
+
+    /* Cards */
+    .boxer, .boxer1 {
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 8vw;
+    }
+
+    .photo_one, .photo_one2, .photo_one3, .photo_one4 {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .pur {
+        font-size: 6vw;
+    }
+
+    .delta del, .delta1, .delta2 {
+        font-size: 4.5vw;
+    }
+
+    .quick {
+        width: 60vw;
+        height: 30vw;
+    }
+    
+    .add {
+        font-size: 4vw;
+    }
+    
+    .Tasty1 {
+        width: 90vw;
+        margin-bottom: 5vw;
+    }
+
+    .t_words {
+        width: 90vw;
+        font-size: 5vw;
+        height: 10vw;
+    }
+    
+    .evening {
+        font-size: 3.5vw;
+    }
+    
+    .wonder, .wonder2, .wonder3, .wonder4 {
+        width: 90vw;
+        height: 25vw;
+    }
+
+    /* Footer adjustments (same as index) */
+     .foot, .foot1 {
+         height: auto;
+     }
+
+     .foot {
+         padding: 5vw 0;
+     }
+
+     .foot1 {
+         flex-wrap: wrap;
+     }
+
+     .deeper {
+         width: 90vw;
+         height: auto;
+         margin-bottom: 5vw;
+         text-align: center;
+     }
+     
+     .deeper ul li {
+         margin-left: 0;
+     }
+
+     .pk img {
+         width: 35vw;
+     }
+
+     .deeper ul li, .cat1 {
+         font-size: 3.5vw;
+         margin-bottom: 2vw;
+     }
+
+     .cat {
+         font-size: 4.5vw;
+         margin-bottom: 3vw;
+     }
+
+     /* Visa Bar */
+     .visa, .twenty {
+         height: auto;
+         flex-direction: column;
+         padding: 2vw 0;
+         justify-content: center;
+     }
+
+     .aller {
+         width: 90vw;
+         font-size: 2.5vw;
+         text-align: center;
+         margin-bottom: 2vw;
+         height: auto;
+     }
+
+     .v_logo {
+         width: 80vw;
+         height: auto;
+         justify-content: center;
+         gap: 2vw;
+     }
+
+     .visit img {
+         width: 10vw;
+     }
+     
+     .three_word678 {
+         width: 95vw;
+         flex-wrap: wrap;
+     }
+     
+     .email {
+         width: 90vw;
+         justify-content: center;
+     }
+     
+     .long {
+         display: none;
+     }
 }

@@ -1289,170 +1289,518 @@
     width: 4vw;
 }
 
-@media screen and (max-width:1200px) {
+/* Responsive Media Queries */
 
-    .menu_search1,
-    .menu_search {
-        width: 8vw;
+@media screen and (max-width: 1024px) {
+    .orange ul {
+        width: 80vw;
+    }
+    
+    .orange ul li a {
+        font-size: 1.5vw;
     }
 
     .thirds {
-        display: flex;
+        width: 90vw;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: auto;
+    }
+
+    .boxer, .boxer1 {
+        width: 40vw;
+        height: auto;
+        margin-bottom: 5vw;
+    }
+
+    .photo_one, .photo_one2, .photo_one3, .photo_one4 {
+        width: 38vw;
+        height: 38vw;
+    }
+
+    .con_box, .con_box1 {
+        height: auto;
+        padding-bottom: 5vw;
+    }
+    
+    .kaki_in {
+        width: 95vw;
+    }
+    
+    .kp, .kp2, .kp3, .kp4, .kp5, .kp1 {
+        width: 30vw;
+        height: 30vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Header & Nav */
+    .white {
+        height: auto;
+        padding: 2vw 0;
+    }
+    
+    .patil img {
+        width: 25vw;
+        height: auto;
+    }
+
+    .menu_search, .menu_search1 {
+        width: 15vw;
+    }
+
+    .orange {
+        height: auto;
+        padding: 1vw 0;
+    }
+
+    .orange ul {
+        width: 95vw;
         justify-content: space-between;
-        align-items: center;
-        margin: auto;
-        width: 96vw;
     }
 
-    .boxer {
-        width: 24vw;
+    .orange ul li a {
+        font-size: 2.5vw;
     }
 
-    .boxer1 {
-        width: 24vw;
+    /* Hero */
+    .back {
+        height: 60vw;
+        background-size: cover;
+        background-position: center;
     }
 
-    .delta del {
-        font-size: 1.7vw;
-    }
-
-    .delta1 {
-        font-size: 1.7vw;
-    }
-
-    .delta2 {
-        font-size: 1.7vw;
-    }
-
-    .add {
-        font-size: 1.8vw;
-    }
-      .orange ul li a{
-        font-size:2.2vw;
-    }
-     .tline img{
-        width:5vw;
-    }
-}
-
-@media screen and (max-width:786px) {
-
-    .menu_search1,
-    .menu_search {
-        width: 9vw;
-        margin-right: 3%;
-    }
-
-    .orange ul {
-        width: 60vw;
-    }
-
-    .tomato {
-        width: 12vw;
-    }
-
-    .three_word {
-        width: 60vw;
-    }
-      .orange ul li{
-        font-size:1.2vw;
-      }
-    .SELL {
-        font-size: 1.4vw;
-    }
-
-    .box {
-        font-size: 1.4vw;
-    }
-
+    /* Best Seller Bar */
     .best {
-        height: 14vw;
-    }
-
-    .con_box {
-        height: 42vw;
-    }
-
-    .boxer {
-        height: 38vw;
-    }
-
-    .boxer1 {
-        height: 38vw;
-    }
-  .orange ul li a{
-        font-size:2.2vw;
-    }
-    .tline img{
-        width:5vw;
-    }
-    .evening{
-        font-size:0.9vw;
-    }
-    .Tasty{
-        width:97vw;
-    }
-    .blue{
-        font-size:1.2vw;
-    }
-}
-
-@media screen and (max-width:600px) {
-
-    .menu_search1,
-    .menu_search {
-        width: 12vw;
-        margin-right: 3%;
-    }
-
-    .orange ul {
-        width: 58vw;
-        font-weight: 500;
-        font-size: 0.6rem;
+        height: auto;
+        padding: 3vw 0;
     }
 
     .three_word {
-        width: 50vw;
+        width: 90vw;
     }
 
-    .SELL {
-        font-size: 1.4vw;
+    .SELL, .box, .box202 {
+        font-size: 3vw;
+        width: auto;
+        padding: 1vw 2vw;
     }
 
-    .box {
-        font-size: 1.4vw;
-    }
-
+    /* Products Grid */
     .thirds {
-        width: 78vw;
-        display: flex;
-        align-items: center;
-        margin: auto;
+        justify-content: space-between;
     }
 
-    .boxer1 {
-        display: none;
+    .boxer, .boxer1 {
+        width: 45vw;
+        display: block; /* Ensure all are visible */
     }
 
-    .boxer {
-        height: 42vw;
-    }
-
-    .con_cox {
+    .photo_one, .photo_one2, .photo_one3, .photo_one4 {
+        width: 44vw;
         height: 44vw;
     }
 
-    .no {
-        gap: 1.2;
-    }
-     .orange ul li a{
-        font-size:2.3vw;
-    }
-     .tline img{
-        width:6vw;
-    }
-    .blue{
-        font-size:1.4vw;
+    .pur {
+        font-size: 3.5vw;
+        margin-top: 1vw;
     }
 
+    .delta del, .delta1, .delta2 {
+        font-size: 3vw;
+    }
+
+    .quick {
+        width: 40vw;
+        height: 20vw;
+        background-size: contain;
+    }
+    
+    .add {
+        font-size: 2.5vw;
+    }
+
+    /* Categories */
+    .kaki {
+        height: auto;
+        margin-bottom: 5vw;
+    }
+
+    .kaki_in {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vw;
+        height: auto;
+    }
+
+    .kps {
+        width: 45vw;
+        height: 45vw;
+        margin-bottom: 2vw;
+    }
+
+    .kp, .kp2, .kp3, .kp4, .kp5, .kp1 {
+        width: 45vw;
+        height: 45vw;
+    }
+
+    /* Text Sections */
+    .bring, .bring1 {
+        font-size: 5vw;
+        height: auto;
+        padding: 4vw 0;
+        text-align: center;
+    }
+
+    .home {
+        font-size: 3vw;
+        width: 90vw;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+     /* Insta Section */
+     .insta {
+        height: auto;
+        padding-bottom: 5vw;
+     }
+
+     .ons {
+        font-size: 4vw;
+        height: 10vw;
+     }
+
+     .oner {
+        font-size: 3vw;
+        height: 8vw;
+        text-align: center;
+     }
+
+     .fives {
+        height: auto;
+     }
+
+     .five_in {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vw;
+     }
+
+     .namkeen, .gathiya, .gathiya2, .gathiya3, .gathiya4, .gathiya5 {
+        width: 28vw;
+        height: 28vw;
+     }
+
+     /* Reviews and Contact */
+     .contact {
+         flex-wrap: wrap;
+         height: auto;
+         justify-content: center;
+         gap: 5vw;
+     }
+
+     .mind {
+         width: 80vw;
+         height: auto;
+         padding: 3vw;
+     }
+
+     .blow {
+         font-size: 4vw;
+         margin-top: 4vw;
+     }
+
+     .sharma1, .family {
+         font-size: 3.5vw;
+     }
+
+     .google img, .sahil img {
+         width: 6vw;
+     }
+
+     /* Tasty Section */
+     .ladoos {
+         height: auto;
+         padding-bottom: 5vw;
+     }
+
+     .Tasty {
+         flex-wrap: wrap;
+         height: auto;
+         gap: 5vw;
+     }
+
+     .Tasty1 {
+         width: 45vw;
+         height: auto;
+     }
+
+     .wonder, .wonder2, .wonder3, .wonder4 {
+         width: 45vw;
+         height: 12vw;
+     }
+     
+     .t_words {
+         width: 45vw;
+         font-size: 3vw;
+         height: 6vw;
+     }
+
+     .evening {
+         font-size: 2.5vw;
+     }
+
+     /* Footer Info Bar */
+     .three_word678 {
+         width: 95vw;
+         flex-wrap: wrap;
+         gap: 2vw;
+     }
+
+     .email {
+         width: 45vw;
+         height: auto;
+         margin-bottom: 2vw;
+     }
+
+     .Email_word {
+         font-size: 3.5vw;
+     }
+
+     .spam {
+         font-size: 3vw;
+         height: auto;
+     }
+     
+     .spam img {
+         width: 5vw;
+     }
+
+     /* Main Footer */
+     .foot, .foot1 {
+         height: auto;
+     }
+
+     .foot {
+         padding: 5vw 0;
+     }
+
+     .foot1 {
+         flex-wrap: wrap;
+         justify-content: space-between;
+     }
+
+     .deeper {
+         width: 45vw;
+         height: auto;
+         margin-bottom: 5vw;
+     }
+
+     .pk img {
+         width: 35vw;
+     }
+
+     .deeper ul li, .cat1 {
+         font-size: 3vw;
+         margin-bottom: 2vw;
+     }
+
+     .cat {
+         font-size: 3.5vw;
+         margin-bottom: 3vw;
+     }
+
+     /* Visa Bar */
+     .visa, .twenty {
+         height: auto;
+         flex-direction: column;
+         padding: 2vw 0;
+     }
+
+     .aller {
+         width: 90vw;
+         font-size: 2.5vw;
+         text-align: center;
+         margin-bottom: 2vw;
+         height: auto;
+     }
+
+     .v_logo {
+         width: 80vw;
+         height: auto;
+     }
+
+     .visit img {
+         width: 10vw;
+     }
+}
+
+@media screen and (max-width: 480px) {
+    /* Mobile Header Refinements */
+    .white {
+        padding: 0.5rem 0;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .menu_search, .menu_search1 {
+        width: 20vw;
+        justify-content: space-around;
+        margin: 0 2vw;
+    }
+
+    .tline img {
+        width: 6vw; /* Larger touch targets */
+        padding: 1vw;
+    }
+
+    .patil img {
+        width: 30vw;
+         margin-top: 1vw;
+    }
+
+    /* Sticky Horizontal Scroll Nav */
+    .orange {
+        width: 100vw;
+        height: 12vw;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch; /* Smooth scroll on iOS */
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+        
+        /* Hide scrollbar */
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    
+    .orange::-webkit-scrollbar {
+        display: none;
+    }
+
+    .orange ul {
+        width: auto; /* Allow natural width */
+        min-width: 100vw; /* Ensure it fills at least the screen */
+        display: flex;
+        flex-wrap: nowrap; /* Prevent wrapping */
+        padding: 0 4vw;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6vw; /* Space between items */
+    }
+    
+    .orange ul li {
+        width: auto;
+        flex: 0 0 auto; /* Don't shrink */
+        border: none;
+        margin: 0;
+    }
+
+    .orange ul li a {
+        font-size: 3.5vw;
+        width: auto;
+        display: block;
+        padding: 1vw 0;
+    }
+    
+    /* Ensure other critical layout elements stack correctly */
+    .three_word {
+        width: 95vw;
+        gap: 2vw;
+    }
+
+    .SELL, .box, .box202 {
+        font-size: 3.2vw;
+        padding: 1.5vw 2vw;
+        border-radius: 1vw;
+    }
+
+    .contact {
+        gap: 8vw;
+    }
+    
+    /* ... rest of mobile styles ... */
+
+    .boxer, .boxer1 {
+        width: 90vw; /* Full width cards */
+        margin: auto;
+        margin-bottom: 8vw;
+    }
+
+    .photo_one, .photo_one2, .photo_one3, .photo_one4 {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .pur {
+        font-size: 6vw;
+    }
+
+    .delta del, .delta1, .delta2 {
+        font-size: 4.5vw;
+    }
+
+    .quick {
+        width: 60vw;
+        height: 30vw;
+    }
+    
+    .add {
+        font-size: 4vw;
+    }
+
+    .kps {
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .kp, .kp2, .kp3, .kp4, .kp5, .kp1 {
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .namkeen, .gathiya, .gathiya2, .gathiya3, .gathiya4, .gathiya5 {
+        width: 45vw;
+        height: 45vw;
+    }
+
+    .Tasty1 {
+        width: 90vw; /* Stack full width */
+        margin-bottom: 5vw;
+    }
+
+    .wonder, .wonder2, .wonder3, .wonder4 {
+        width: 90vw;
+        height: 25vw;
+    }
+
+    .t_words {
+        width: 90vw;
+        font-size: 5vw;
+        height: 10vw;
+    }
+    
+    .evening {
+        font-size: 3.5vw;
+    }
+    
+    .email {
+        width: 90vw; /* Full width contacts */
+        justify-content: center;
+    }
+    
+    .long {
+        display: none;
+    }
+
+    .deeper {
+        width: 90vw; /* Full width footer columns */
+        text-align: center;
+    }
+
+    .deeper ul li {
+        margin-left: 0;
+    }
 }
